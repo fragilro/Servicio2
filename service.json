@@ -1,0 +1,30 @@
+{
+    "name": "Prueba Segmentación multicanal",
+    "version": "0.1.0",
+    "keywords": [
+      "segmentation",
+      "multichannel"
+    ],
+    "shortdesc": "DSS service (segmentation multichannel)",
+    "longdesc": "DSS service (segmentation multichannel)",
+    "tags": [
+      {
+        "name": "FirstChannel",
+        "type": "MainImage",
+        "hint": "Una imagen sobre la que aplicar segmentación",
+        "required": true
+      },
+      {
+        "name": "SecondChannel",
+        "type": "OverlayImage",
+        "hint": "Otra imagen sobre la que aplicar sgementación",
+        "required": true
+      },
+      {
+        "name": "ThirdChannel",
+        "type": "OverlayImage",
+        "hint": "Otra imagen sobre la que aplicar sgementación",
+        "required": true
+      }
+    ]
+  }
