@@ -1,5 +1,5 @@
 {
-    "name": "Prueba Segmentación multicanal",
+    "name": "Multichannel segmentation",
     "version": "0.1.0",
     "keywords": [
       "segmentation",
@@ -9,21 +9,21 @@
     "longdesc": "DSS service (segmentation multichannel)",
     "tags": [
       {
-        "name": "FirstChannel",
+        "name": "Flair",
         "type": "MainImage",
-        "hint": "Una imagen sobre la que aplicar segmentación",
+        "hint": "Flair MRI image",
         "required": true
       },
       {
-        "name": "SecondChannel",
+        "name": "T1C",
         "type": "OverlayImage",
-        "hint": "Otra imagen sobre la que aplicar sgementación",
+        "hint": "T1C MRI image",
         "required": true
       },
       {
-        "name": "ThirdChannel",
+        "name": "T2",
         "type": "OverlayImage",
-        "hint": "Otra imagen sobre la que aplicar sgementación",
+        "hint": "T2 MRI image",
         "required": true
       }
     ]
