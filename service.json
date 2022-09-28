@@ -10,7 +10,7 @@
     "tags": [
       {
         "name": "T1C",
-        "type": "OverlayImage",
+        "type": "MainImage",
         "hint": "T1C MRI image",
         "required": true
       },
@@ -22,7 +22,7 @@
       },
       {
         "name": "Flair",
-        "type": "MainImage",
+        "type": "OverlayImage",
         "hint": "Flair MRI image",
         "required": true
       }
