@@ -9,12 +9,6 @@
     "longdesc": "DSS service (segmentation multichannel)",
     "tags": [
       {
-        "name": "Flair",
-        "type": "MainImage",
-        "hint": "Flair MRI image",
-        "required": true
-      },
-      {
         "name": "T1C",
         "type": "OverlayImage",
         "hint": "T1C MRI image",
@@ -24,6 +18,12 @@
         "name": "T2",
         "type": "OverlayImage",
         "hint": "T2 MRI image",
+        "required": true
+      },
+      {
+        "name": "Flair",
+        "type": "MainImage",
+        "hint": "Flair MRI image",
         "required": true
       }
     ]
